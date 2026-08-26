@@ -1,11 +1,14 @@
 {
-  "name": "capacitor-app",
+  "name": "achart",
   "version": "1.0.0",
-  "description": "An Amazing Capacitor App",
-  "main": "index.js",
+  "description": "AChart - a computer-based optometry test chart (visual acuity, color vision and binocular vision tests), packaged with Capacitor for mobile.",
+  "main": "index.html",
   "keywords": [
     "capacitor",
-    "mobile"
+    "mobile",
+    "optometry",
+    "vision-test",
+    "visual-acuity"
   ],
   "scripts": {
     "start": "vite",
@@ -14,7 +17,6 @@
   },
   "dependencies": {
     "@capacitor/core": "latest",
-    "@capacitor/camera": "latest",
     "@capacitor/splash-screen": "latest"
   },
   "devDependencies": {
